@@ -16,6 +16,7 @@ class PrintfulClient {
     this.headers = {
       "Content-Type": "application/json",
       Authorization: `Bearer ${token}`,
+      "X-PF-Language": "pt_BR",
       ...headers,
     };
   }
